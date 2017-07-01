@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en" spellcheck="false">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="theme-color" value="#1d3e9f">
+    <title>Palette Tool</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="palette-tool/wheelcolorpicker.dark.css">
+    
+    <link rel="stylesheet" href="css/materia.css">
+    <link rel="stylesheet" href="palette-tool/style.css">
+
+</head>
+
+<body>
+
+    <div mtr-layout="row" mtr-fill mtr-wrap>
+
+        <div mtr-layout="column" mtr-fill>
+
+            <div class="mtr-toolbar">
+                <div class="mtr-toolbar-row">
+
+                    <span class="mtr-toolbar-title flex">Palette Tool</span>
+
+                </div>
+
+            </div>
+
+            <div class="mtr-content mtr-padding" mtr-wrap id="waterfall-content">
+
+                <div class="mtr-color-picker" mtr-layout="column">
+                    
+                    <div class="mtr-color-wheel">
+                        <input type="text" id="color-wheel">
+                    </div>
+                    
+                    <div class="mtr-color-input">
+                    
+                        <div class="mtr-input-container full-width mtr-accent mtr-dark-theme">
+                            <input type="text" id="color-input" class="mtr-input">
+                            <label>HEX</label>
+
+                            <div class="mtr-input-border"></div>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="mtr-palette">
+
+                    <div class="mtr-palette-item" data-shade="50">
+
+                        <span class="shade">50</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="100">
+
+                        <span class="shade">100</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="200">
+
+                        <span class="shade">200</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="300">
+
+                        <span class="shade">300</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="400">
+
+                        <span class="shade">400</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="500">
+
+                        <span class="shade">500</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="600">
+
+                        <span class="shade">600</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="700">
+
+                        <span class="shade">700</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="800">
+
+                        <span class="shade">800</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                    <div class="mtr-palette-item" data-shade="900">
+
+                        <span class="shade">900</span>
+                        <span class="hex">#</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materia.js"></script>
+    
+    <script src="palette-tool/color-picker.js"></script>
+    <script src="palette-tool/palette-tool.js"></script>
+</body>
+
+</html>
