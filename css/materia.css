@@ -357,6 +357,7 @@ h4 {
 .mtr-content {
     overflow: auto;
 	background-color: #fafafa;
+	z-index: 0;
 }
 
 .mtr-padding {
