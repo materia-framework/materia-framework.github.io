@@ -435,7 +435,7 @@ if (typeof (jQuery) === 'undefined') {
 		
 		$('#color-wheel').on("slidermove", function () {
 			setHex();
-			$("#color-input").focus();
+			$("#color-input").change();
 		});
 		
 		$('#color-wheel').on("sliderup", function() {
