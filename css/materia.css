@@ -113,13 +113,13 @@ h4 {
     --accent-light-bg: #FFCB4D;
     --text-light: rgba(255, 255, 255, 0.87);
     --text-dark: rgba(0, 0, 0, 0.87);*/
-	--primary-bg: #2859B4;
-    --primary-dark-bg: #1d3e9f;
-    --primary-light-bg: #698BCB;
-    --accent-bg: #F6C000;
-    --accent-dark-bg: #F2AA00;
-    --accent-light-bg: #F9D34D;
-    --text-light: rgba(255, 255, 255, 0.87);
+    --primary-bg: #007CFF;
+    --primary-dark-bg: #0051C2;
+    --primary-light-bg: #47B3FF;
+    --accent-bg: #FFCB14;
+    --accent-dark-bg: #FFA10A;
+    --accent-light-bg: #FFD747;
+    --text-light: rgb(255, 255, 255);
     --text-dark: rgba(0, 0, 0, 0.87);
 }
 
