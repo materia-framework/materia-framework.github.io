@@ -874,6 +874,14 @@ h4 {
     flex-direction: row;
 }
 
+@media (max-width: 720px) {
+	
+    .mtr-toolbar .mtr-toolbar-row {
+        height: 56px;
+    }
+
+}
+
 .mtr-toolbar .mtr-tall {
     height: 128px;
     min-height: 128px;
