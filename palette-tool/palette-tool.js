@@ -674,7 +674,7 @@ if (typeof (jQuery) === 'undefined') {
 			return $(this);
 		}		
 		
-		$('#color-wheel').wheelColorPicker('value', "#F44336");
+		$('#color-wheel').wheelColorPicker('value', "#007CFF");
 
 		$('#color-wheel').trigger("sliderup");
 		
