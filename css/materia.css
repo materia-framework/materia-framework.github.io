@@ -878,6 +878,7 @@ h4 {
 	
     .mtr-toolbar .mtr-toolbar-row {
         height: 56px;
+	min-height: 56px;
     }
 
 }
